@@ -50,7 +50,6 @@ html {
   animation: animStar 150s linear infinite;
 }
 
-
 #stars3:after {
   content: " ";
   position: absolute;
