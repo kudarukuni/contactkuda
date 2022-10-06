@@ -4,22 +4,6 @@ html {
   overflow: hidden;
 }
 
-blockquote{
-  margin: 0;
-  padding: 0;
-  grid-column: 2 / span 9;
-  margin-bottom: var(--spacing);
-}
-
-blockquote p{
-  color: black;
-  background-color: white;
-  font-family: elevon, sans-serif;
-  font-size: 4rem;
-  display: inline;
-  line-height: 1;
-}
-
 #stars {
   width: 1px;
   height: 1px;
@@ -71,111 +55,24 @@ blockquote p{
   box-shadow: 146px 1249px #FFF , 35px 1186px #FFF , 257px 1645px #FFF , 1730px 668px #FFF , 102px 109px #FFF , 1952px 1122px #FFF , 1002px 1820px #FFF , 127px 149px #FFF , 1288px 442px #FFF , 303px 221px #FFF , 493px 1130px #FFF , 1932px 1832px #FFF , 1008px 389px #FFF , 1132px 178px #FFF , 1038px 1938px #FFF , 1036px 1010px #FFF , 1236px 1026px #FFF , 313px 1400px #FFF , 1356px 1180px #FFF , 332px 334px #FFF , 956px 1403px #FFF , 1542px 390px #FFF , 1105px 1993px #FFF , 1704px 1199px #FFF , 1083px 1441px #FFF , 1694px 1373px #FFF , 290px 488px #FFF , 863px 1050px #FFF , 309px 809px #FFF , 1686px 798px #FFF , 1933px 384px #FFF , 646px 133px #FFF , 392px 1502px #FFF , 959px 786px #FFF , 1020px 1961px #FFF , 1298px 1566px #FFF , 299px 1434px #FFF , 1020px 62px #FFF , 656px 1434px #FFF , 684px 146px #FFF , 1070px 1491px #FFF , 227px 861px #FFF , 195px 42px #FFF , 665px 1365px #FFF , 449px 1680px #FFF , 1938px 1234px #FFF , 1910px 115px #FFF , 9px 1839px #FFF , 1923px 865px #FFF , 1179px 1938px #FFF , 434px 1717px #FFF , 1889px 853px #FFF , 941px 615px #FFF , 347px 1109px #FFF , 1036px 572px #FFF , 228px 1589px #FFF , 496px 1917px #FFF , 477px 289px #FFF , 621px 82px #FFF , 1478px 1298px #FFF , 1130px 1417px #FFF , 132px 201px #FFF , 499px 840px #FFF , 440px 1309px #FFF , 902px 609px #FFF , 1290px 1815px #FFF , 1420px 1459px #FFF , 1252px 569px #FFF , 1466px 159px #FFF , 269px 327px #FFF , 1136px 411px #FFF , 404px 1098px #FFF , 1536px 551px #FFF , 1259px 541px #FFF , 1709px 1516px #FFF , 927px 205px #FFF , 1310px 965px #FFF , 1187px 514px #FFF , 226px 1484px #FFF , 837px 941px #FFF , 307px 1910px #FFF , 1340px 431px #FFF , 1516px 1466px #FFF , 909px 1882px #FFF , 1870px 437px #FFF , 212px 1086px #FFF , 502px 1552px #FFF , 1735px 153px #FFF , 727px 1329px #FFF , 451px 1523px #FFF , 1616px 975px #FFF , 570px 715px #FFF , 1086px 1575px #FFF , 1378px 559px #FFF , 1476px 1446px #FFF , 1632px 978px #FFF , 1822px 1683px #FFF , 1850px 1726px #FFF , 492px 798px #FFF , 1511px 1500px #FFF;
 }
 
-button {
-  margin: 20px;
-}
-.custom-btn {
-  width: 200px;
-  height: 40px;
-  color: #ffffff;
-  border-radius: 10px;
-  padding: 10px 25px;
-  font-family: 'Lato', bold;
-  font-weight: 500;
-  background: transparent;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
+.button {
   display: inline-block;
-   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
-  outline: none;
-  margin: 0 auto;
-  display: block;
-  margin-top:50px; 
-  
+  margin: 20px;
+  background: #12BDF3;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 250ms ease;
 }
 
-.waveButton {
-  background: rgb(247,150,192);
-background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
-  line-height: 42px;
-  padding: 0;
-  border: none;
-}
-.waveButton span {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.waveButton:before,
-.waveButton:after {
-  position: absolute;
-  content: "";
-  height: 0%;
-  width: 1px;
- box-shadow:
-   -1px -1px 20px 0px rgba(255,255,255,1),
-   -4px -4px 5px 0px rgba(255,255,255,1),
-   7px 7px 20px 0px rgba(0,0,0,.4),
-   4px 4px 5px 0px rgba(0,0,0,.3);
-}
-.waveButton:before {
-  right: 0;
-  top: 0;
-  transition: all 500ms ease;
-}
-.waveButton:after {
-  left: 0;
-  bottom: 0;
-  transition: all 500ms ease;
-}
-.waveButton:hover{
-  background: transparent;
-  color: #000000;
-  background: rgb(247,150,192);
-  opacity: 0.7;
-  box-shadow: none;
-}
-.waveButton:hover:before {
-  transition: all 500ms ease;
-  height: 100%;
-}
-.waveButton:hover:after {
-  transition: all 500ms ease;
-  height: 100%;
-}
-.waveButton span:before,
-.waveButton span:after {
-  position: absolute;
-  content: "";
-  box-shadow:
-   -1px -1px 20px 0px rgba(255,255,255,1),
-   -4px -4px 5px 0px rgba(255,255,255,1),
-   7px 7px 20px 0px rgba(0,0,0,.4),
-   4px 4px 5px 0px rgba(0,0,0,.3);
-}
-.waveButton span:before {
-  left: 0;
-  top: 0;
-  width: 0%;
-  height: .5px;
-  transition: all 500ms ease;
-}
-.waveButton span:after {
-  right: 0;
-  bottom: 0;
-  width: 0%;
-  height: .5px;
-  transition: all 500ms ease;
-}
-.waveButton span:hover:before {
-  width: 100%;
-}
-.waveButton span:hover:after {
-  width: 100%;
+.button:hover {
+  background: #0088BB;
+  color: #FFFFFF;
 }
 
 
