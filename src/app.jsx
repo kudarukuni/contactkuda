@@ -13,7 +13,7 @@ export default function App() {
         </div>    
         <div className="bio">
           <font color="white">Hi, 👋 I am Kuda Rukuni and I am a Full Stack IoT, Web3.0 and Software Engineer. 
-            I have worked on a number of IoT projects for some of the biggest and top IoT companies in Africa.</font>
+            I have worked on a number of IoT projects for some of the biggest and top IoT companies in Africa.
             <br/>For more information and booking please call me on this number <a href="tel:+263782516263" target="_blank"><strong>+263 782 51 6263.</strong></a>
             <br/>Otherwise if you prefer to communicate via email, please feel free to send mail to this address <a href="mailto:krukuni@gmail.com" target="_blank"><strong>krukuni@gmail.com.</strong></a>
             <br/>I am readily available for all discussions and please do not hesitate to hit the WhatsApp button on the bottom right of your screen to start a conversation.
