@@ -23,7 +23,7 @@ export default function App() {
           </font>          
           <p align="center">
             <a href="https://kudarukuni-kudarukuni.vercel.app" target="_blank" class="button">Desktop Site !!</a>
-            <a href="https://cvtemp-kudarukuni.vercel.app" target="_blank" class="button">Mobile Site !!</i></a>
+            <a href="https://cvtemp-kudarukuni.vercel.app" target="_blank" class="button">Mobile Site !!</a>
           </p>
         </div>
       </div>
