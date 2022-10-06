@@ -204,7 +204,6 @@ html {
     --z: -0.06;
     animation: translateWobble 2.2s ease forwards;
   }
-}
 
 @keyframes rotateAngle {
   0% {
