@@ -17,18 +17,19 @@ export default function App() {
           <font color="white">Hi, 👋 I am Kuda Rukuni and I am a Full Stack IoT, Web3.0 and Software Engineer. 
             I have worked on a number of IoT projects for some of the biggest and top IoT companies in Africa.
             <br/><br/><br>
-            For more information and booking please call me on this number <a href="tel:+263782516263" target="_blank"></font><font color="gold">+263 782 51 6263</font><font color="white"></a> and if you 
-            prefer to communicate via email, please feel free to send mail to this address <a href="mailto:krukuni@gmail.com" target="_blank"><strong></font><font color="gold">krukuni@gmail.com</font><font color="white">.</a>
+            For more information and booking please call me on this number</font><a href="tel:+263782516263" target="_blank">            
+            <font color="gold">+263 782 51 6263</font></a><font color="white"> and if you prefer to communicate via email, please feel free to send mail to this address </font> 
+            <a href="mailto:krukuni@gmail.com" target="_blank"><font color="gold">krukuni@gmail.com</font></a><font color="white">.
             <br/><br/><br>
-            I am readily and always available for all discussions. And please do not hesitate to hit the</font><font color="#075e54"> WhatsApp</font><font color="white"> button on the bottom right of your screen 
-            to start a conversation on WhatsApp.
+            I am readily and always available for all discussions. And please do not hesitate to hit the</font><font color="#075e54"> WhatsApp</font><font color="white"> button 
+            on the bottom right of your screen to start a conversation on my favourite Messenger Application.
           </font>          
           <p align="center">
             <a href="https://kudarukuni-kudarukuni.vercel.app" target="_blank" class="button">Desktop Site</a>
             <a href="https://cvtemp-kudarukuni.vercel.app" target="_blank" class="button">Mobile Site</a>
           </p>
         </div>
-    
+        
       </div>
     </div>
   );
